@@ -1,0 +1,233 @@
+
+@font-face {
+  font-family: SwallowKick;
+  src: url(../src/assets/fonts/SwallowKick.ttf);
+}
+@font-face {
+  font-family: MontSerratRegular;
+  src: url(../src/assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Komicak;
+  src: url(../src/assets/fonts/Komicak.ttf);
+}
+
+$standardtext:MontSerratRegular;
+$standardtitle: Komicak; 
+
+// .offerintro_text{
+//   font-family:$standardtext;
+//   font-size:23px;;
+// }
+// .offertext{
+//   font-family:$standardtext;
+//   font-size:23px;;
+//   text-align: left;
+// }
+// .offerings{
+//   padding-left: 320px;
+// }
+
+/* Color of the links BEFORE scroll */
+.navbar-before-scroll .nav-link,
+.navbar-before-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-after-scroll .nav-link,
+.navbar-after-scroll .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-after-scroll {
+  background-color: #fff;
+}
+
+/* Transition after scrolling */
+.navbar-after-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* Transition to the initial state */
+.navbar-before-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-before-scroll.navbar-after-scroll {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Navbar on mobile */
+@media (max-width: 991.98px) {
+  #main-navbar {
+    background-color: #fff;
+  }
+
+  .nav-link,
+  .navbar-toggler-icon {
+    color: #f51d1d !important;
+  }
+}
+@media (min-width: 992px) {
+  .rotate-lg {
+    transform: rotate(6deg);
+  }
+}
+
+#myoffers{
+  padding-top:5%;
+  text-align: center;
+  // background-color: aliceblue;
+
+  h2{
+    font-family:$standardtitle;
+    letter-spacing: 0.2em;
+
+  }
+  // .offer_container{
+  //   // padding:5px;
+  //   background-color: aqua;
+  //   display: grid;
+  //   grid-template-columns: auto auto;
+  //   grid-gap: 10px;
+  //   padding-left:50px;
+
+  // }
+}
+// .offer_container{
+//   // padding:5px;
+//   background-color: aqua;
+//   display: grid;
+//   grid-template-columns: auto auto auto;
+//   grid-gap: 10px;
+//   padding-left:50px;
+//   align-items: center;
+//   text-align: center;
+
+//   height:fit-content;
+//     background-size:auto;
+//     background-position-x: center;
+//     background-position-y:center;
+//     position: relative;
+//     // background-color: white;
+
+// }
+// .offerings{
+//   // height:70vh;
+//   display: grid;
+//   grid-template-columns: auto auto;
+//   grid-gap: 10px;
+//   // background-color: lightgrey;
+//   padding: 10px;
+//   align-items: end;
+//   padding-left:50px;
+// }
+
+// .offering_box{
+//   display:grid;
+//   grid-template-columns: auto auto;
+//   grid-template-rows: auto;
+//   column-gap: 10px;
+//   padding:5px;
+//   // margin-bottom:10px;
+// }
+
+
+.titleh2{
+  font-family:$standardtitle;
+  letter-spacing: 0.2em;
+}
+.boxcenter{
+  display:grid;
+  grid-template-columns: auto auto;
+  gap:10px;
+  
+  h2{
+    font-family:$standardtitle;
+    letter-spacing: 0.2em;
+  }
+  .introtext{
+    color:black;
+    font-family: $standardtext;
+    font-size:18px;
+  }
+  .otitle{
+    color:black;
+    font-family:$standardtitle;
+    text-align: left;
+
+  }
+  .otext{
+    font-family:$standardtext;
+    text-align: left;
+  }
+  .overbox{
+    height:150px;
+    width:85vw;
+    // background-color: #f51d1d;
+
+    .offer_container{
+      // padding:5px;
+      // background-color: aqua;
+      width:100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+      padding-left:5px;
+      align-items: center;
+      // text-align: center;
+      height:fit-content;
+      background-size:auto;
+      background-position-x: center;
+      background-position-y:center;
+      position: relative;
+      // background-color: white;
+    
+    }
+  }
+}
+
+#myskills{
+  height:100vh;
+  // background-color: lightblue;
+  margin-bottom:30px;
+}
+
+.offertitle{
+  text-align: center;
+  font-family:$standardtitle;
+  letter-spacing: 0.2em;
+}
+// .offertext{
+//   font-family:$standardtext;
+//   font-size:20px;
+//   text-align: left;
+// }
+// .offer_title{
+//   font-family:$standardtitle;
+//   font-size:25px;
+//   text-decoration: none;
+//   text-align: left !important;
+
+// }
+
+#myoffers{
+  height:100vh;
+
+  .offertext{
+    font-family:$standardtext;
+    font-size:20px;
+    text-align: left;
+  }
+  .offer_title{
+    font-family:$standardtitle;
+    font-size:25px;
+    text-decoration: none;
+    color:black;
+    text-align: left;
+  }
+}

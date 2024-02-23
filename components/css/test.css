@@ -1,0 +1,142 @@
+@font-face {
+  font-family: SwallowKick;
+  src: url(../src/assets/fonts/SwallowKick.ttf);
+}
+@font-face {
+  font-family: MontSerratRegular;
+  src: url(../src/assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Komicak;
+  src: url(../src/assets/fonts/Komicak.ttf);
+}
+/* Color of the links BEFORE scroll */
+.navbar-before-scroll .nav-link,
+.navbar-before-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-after-scroll .nav-link,
+.navbar-after-scroll .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-after-scroll {
+  background-color: #fff;
+}
+
+/* Transition after scrolling */
+.navbar-after-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* Transition to the initial state */
+.navbar-before-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-before-scroll.navbar-after-scroll {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Navbar on mobile */
+@media (max-width: 991.98px) {
+  #main-navbar {
+    background-color: #fff;
+  }
+  .nav-link,
+  .navbar-toggler-icon {
+    color: #f51d1d !important;
+  }
+}
+@media (min-width: 992px) {
+  .rotate-lg {
+    transform: rotate(6deg);
+  }
+}
+#myoffers {
+  padding-top: 5%;
+  text-align: center;
+}
+#myoffers h2 {
+  font-family: Komicak;
+  letter-spacing: 0.2em;
+}
+
+.titleh2 {
+  font-family: Komicak;
+  letter-spacing: 0.2em;
+}
+
+.boxcenter {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.boxcenter h2 {
+  font-family: Komicak;
+  letter-spacing: 0.2em;
+}
+.boxcenter .introtext {
+  color: black;
+  font-family: MontSerratRegular;
+  font-size: 18px;
+}
+.boxcenter .otitle {
+  color: black;
+  font-family: Komicak;
+  text-align: left;
+}
+.boxcenter .otext {
+  font-family: MontSerratRegular;
+  text-align: left;
+}
+.boxcenter .overbox {
+  height: 150px;
+  width: 85vw;
+}
+.boxcenter .overbox .offer_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding-left: 5px;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: auto;
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
+}
+
+#myskills {
+  height: 100vh;
+  margin-bottom: 30px;
+}
+
+.offertitle {
+  text-align: center;
+  font-family: Komicak;
+  letter-spacing: 0.2em;
+}
+
+#myoffers {
+  height: 100vh;
+}
+#myoffers .offertext {
+  font-family: MontSerratRegular;
+  font-size: 20px;
+  text-align: left;
+}
+#myoffers .offer_title {
+  font-family: Komicak;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}/*# sourceMappingURL=test.css.map */
