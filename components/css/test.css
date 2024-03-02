@@ -139,4 +139,12 @@
   text-decoration: none;
   color: black;
   text-align: left;
+}
+
+.cardcontact {
+  margin-left: 300px;
+}
+
+.mailtext {
+  color: blue;
 }/*# sourceMappingURL=test.css.map */
