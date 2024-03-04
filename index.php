@@ -6,7 +6,15 @@
     <title>Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5DCMVFF9F1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-5DCMVFF9F1');
+</script>
     <link rel="stylesheet" href="components/css/test.css">
 </head>
 <body>
@@ -200,7 +208,7 @@
         <div class="card rounded-6 h-100">
           <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
                data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#project-2">
-            <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/restaurant1/rest1_1.jpg" class="w-100" />
+            <img src="uploads/images/rest1_1.png" class="w-100" />
             <a href="#!">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>
@@ -226,7 +234,7 @@
         <div class="card rounded-6 h-100">
           <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
                data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#project-3">
-            <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/restaurant2/rest1_1.jpg" class="w-100" />
+            <img src="uploads/images/rest2_1.png" class="w-100" />
             <a href="#!">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>
@@ -251,7 +259,7 @@
 <div class="card rounded-6 h-100">
   <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
        data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#customerbackend">
-    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/alc1/a3.jpg" class="w-100" />
+    <img src="uploads/images/backend1.png" class="w-100" />
     <a href="#!">
       <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
     </a>
@@ -276,7 +284,7 @@
 <div class="card rounded-6 h-100">
   <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
        data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#w4tour">
-    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/w4tour/w1.jpg" class="w-100" />
+    <img src="uploads/images/w4tour1.png" class="w-100" />
     <a href="#w4tour">
       <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
     </a>
@@ -455,7 +463,7 @@
                 <div class="col-lg-5 mb-5 mb-lg-0">
                   <div class="bg-image ripple rounded-7 shadow-5-strong" data-mdb-ripple-init
                        data-mdb-ripple-color="light">
-                    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/restaurant1/rest1_1.jpg" class="w-100" />
+                    <img src="uploads/images/rest1_2.png" class="w-100" />
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                         <div class="d-flex justify-content-center align-items-center h-100">
@@ -557,7 +565,7 @@
                 <div class="col-lg-5 mb-5 mb-lg-0">
                   <div class="bg-image ripple rounded-7 shadow-5-strong" data-mdb-ripple-init
                        data-mdb-ripple-color="light">
-                    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/restaurant2/rest1_1.jpg" class="w-100" />
+                    <img src="uploads/images/rest2_1.png" class="w-100" />
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                         <div class="d-flex justify-content-center align-items-center h-100">
@@ -661,7 +669,7 @@
                 <div class="col-lg-5 mb-5 mb-lg-0">
                   <div class="bg-image ripple rounded-7 shadow-5-strong" data-mdb-ripple-init
                        data-mdb-ripple-color="light">
-                    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/alc1/a5.jpg" class="w-100" />
+                    <img src="uploads/images/backend2.png" class="w-100" />
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                         <div class="d-flex justify-content-center align-items-center h-100">
@@ -764,7 +772,7 @@
                 <div class="col-lg-5 mb-5 mb-lg-0">
                   <div class="bg-image ripple rounded-7 shadow-5-strong" data-mdb-ripple-init
                        data-mdb-ripple-color="light">
-                    <img src="https://webdesign.digitaleseele.at/portfolio/assets/media/portfolio/alc1/a5.jpg" class="w-100" />
+                    <img src="uploads/images/w4tour2.png" class="w-100" />
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                         <div class="d-flex justify-content-center align-items-center h-100">
