@@ -91,7 +91,7 @@
 <!-- Section: Split screen -->
 <section class="">
 
-  <div class="container-fluid px-0">
+  <div class="192.168.container-fluid px-0">
     <div class="row g-0">
 
       <!-- First column -->
@@ -1116,61 +1116,17 @@
     </div>
 
   </section>
-  <!-- Section:CONTACT -->
-  <!-- #contactme<section class="mb-10" id="contactme">
-
-<div class="container">
-<h2 class="titleh2 mb-7 text-center text-primary">CONTACT</h2>
-
-  <div class="row gx-0 align-items-center">
-        
-    <!-- First column -->
-    <!-- <div class="col-lg-6 mb-5 mb-lg-0">
-
-      <div style="background: hsla(0, 0%, 100%, 0.2);
-                  backdrop-filter: blur(10px);
-                  z-index: 1;" class="card rounded-7 me-lg-n5 cardcontact">
-        <div class="card-body p-lg-5 shadow-5">
-          <p class="text-muted mb-4">
-          If you're interested in developing a project together with me, contact me via webdesign (at) digitaleseele.at. !
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!-- First column -->
-
-
-    <!-- Second column -->
-    <!-- <div class="col-lg-6 mb-5 mb-lg-0">
-
-      <div class="bg-image hover-overlay rounded-7 shadow-4 rotate-lg">
-        <img src="https://webdesign.digitaleseele.at/images/stefan.jpg" class="w-100" alt="" />
-        <div class="mask" style="background: linear-gradient(
-                                 45deg,
-                                 hsla(169, 84.5%, 52%, 0.3),
-                                 hsla(263, 87.7%, 44.7%, 0.3) 100%
-                                 )">
-        </div>
-      </div>
-
-    </div> -->
-    <!-- Second column -->
+  
 
   </div>
 
 </div>
 
-</section> -->
+</section>
 </div>
 </main>
-<!--Main layout-->
 
-<!--Footer-->
 
-<div class="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" class="form-control" />
-  <label class="form-label" for="typeText">Text input</label>
-</div>
 <footer>
 
 </footer>
