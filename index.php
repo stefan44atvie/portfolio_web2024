@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=#, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Page Stefan Rüdenauer</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <!-- Google tag (gtag.js) -->
@@ -22,69 +22,34 @@
 <header class="mb-10">
 
 <!-- Navbar -->
-<nav id="main-navbar" class="navbar navbar-expand-md fixed-top navbar-before-scroll shadow-0">
-  <!-- Container wrapper -->
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+    <a class="navbar-brand" href="#">
+        <img src="components/media/Logos/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-        <!-- Logo -->
-        <a class="navbar-brand me-1" href="#"><img src="components/media/Logos/D&S_Logo_200x115.jpg"
-                                                   height="20px" alt="Logo" loading="lazy" /></a>
-
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#myprojects">Projects</a>
+          <a class="nav-link active" aria-current="page" href="#myprojects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#myoffers">My offers</a>
+          <a class="nav-link active" aria-current="page" href="#myoffers">My offers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#myskills">My skills</a>
+          <a class="nav-link active" aria-current="page" href="#myskills">My skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#aboutme">About me</a>
+          <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#contactme">Contact</a>
-        </li>
-      </ul>
-
-      <ul class="navbar-nav flex-row">
-        <!-- Icons -->
-        <li class="nav-item">
-          <a class="nav-link pe-2" href="#!">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-2" href="#!">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-2" href="#!">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ps-2" href="#!">
-            <i class="fab fa-instagram"></i>
-          </a>
+          <a class="nav-link active" aria-current="page" href="#contactme">Contact</a>
         </li>
       </ul>
     </div>
-    <!-- Collapsible wrapper -->
-
   </div>
-  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
 
