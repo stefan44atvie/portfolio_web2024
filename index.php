@@ -530,6 +530,7 @@
                     </div>
                   </div> -->
                 </div>
+                <a href="https://webdesign.digitaleseele.at/projects/neuer_ganslzeit2024/index.php">Project's Weblink</a>
               </div>
             </section>
             <!-- Section: Design Block -->
