@@ -147,8 +147,28 @@
     <div class="row gx-lg-5">
 
       <!-- First column -->
+      <div class="col-lg-4 mb-6 mb-lg-4">
+        <div class="card rounded-6 h-100">
+          <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
+               data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#project-ad">
+            <img src="uploads/images/ganslzeit2024.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">LandingPage for a restaurant's ad-campaign</h5>
+            <p class="text-muted">
+              <small>project <u>October 2024</u></small>
+            </p>
+            <p class="card-text">
+              I was asked to create a restaurant's landingpage for advertising Austria's well-known MartiniGansl period during November.
+            </p>
+            <a href="#project-ad" class="btn btn-secondary btn-rounded" data-mdb-modal-init data-mdb-ripple-init>Read more</a>
+          </div>
+        </div>
+      </div>
       <div class="col-lg-4 col-md-12 mb-6 mb-lg-0 ">
-
         <div class="card rounded-6 h-100">
           <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
                data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#digitaleseele">
@@ -168,13 +188,13 @@
             <a href="#digitaleseele" class="btn btn-secondary btn-rounded" data-mdb-modal-init data-mdb-ripple-init data-toggle="modal" data-target="#digitaleseele" >Read More</a>
           </div>
         </div>
-
       </div>
+      
       <!-- First column -->
+      
 
       <!-- Second column -->
       <div class="col-lg-4 mb-6 mb-lg-0">
-
         <div class="card rounded-6 h-100">
           <div class="mt-n3 bg-image hover-overlay mx-3 shadow-4-strong rounded-6" data-mdb-ripple-init
                data-mdb-ripple-color="light" data-mdb-modal-init data-mdb-target="#project-2">
@@ -194,7 +214,6 @@
             <a href="#project-2" class="btn btn-secondary btn-rounded" data-mdb-modal-init data-mdb-ripple-init>Read more</a>
           </div>
         </div>
-
       </div>
       <!-- Second column -->
 
@@ -248,6 +267,7 @@
 
 </div>
 <!-- First column -->
+
   <!-- First column -->
   <div class="col-lg-4 col-md-12 mb-6 mb-lg-0 mt-4">
 
@@ -404,6 +424,112 @@
                 </div>
                 <a href="https://www.sfr-fotografie.at">www.sfr-fotografie.at</a>
 
+              </div>
+            </section>
+            <!-- Section: Design Block -->
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-ripple-init
+                    data-mdb-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal project 1 -->
+<div class="modal fade" id="project-ad" tabindex="-1" aria-labelledby="project-1Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="project-1Label">Ad-campaign for MartiniGansl period at restaurant NEUERWirt</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <!-- Section: Design Block -->
+            <section>
+
+              <div class="row gx-lg-5 align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                  <div class="bg-image ripple rounded-7 shadow-5-strong" data-mdb-ripple-init
+                       data-mdb-ripple-color="light">
+                    <img src="uploads/images/ganslzeit2024.jpg" class="w-100" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                          <div class="px-4 py-5 px-md-5 text-white text-center">
+                            <h3 class="text-uppercase fw-bold mb-4">
+                              www.neuerwirt.at
+                            </h3>
+                            <!-- <p class="mb-0" style="color: hsl(210, 12%, 80%)">
+                              Digitale Seele developed a whole new design for the photography blog
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hover-overlay">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                  <div class="d-flex align-items-start mb-5">
+                    <div class="flex-shrink-0">
+                      <div class="p-3 rounded-4 shadow-2-strong" style="background-color: hsl(204, 30%, 20%)">
+                        <i class="fas fa-headset fa-lg text-white fa-fw"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-4">
+                      <p class="fw-bold mb-1">What's martinigans?</p>
+                      <p class="text-muted mb-0">
+                        Martinigans, celebrated in parts of Austria and Bavaria, is a traditional feast held on November 11 in honor of Saint Martin of Tours, the patron saint of winegrowers, soldiers, and geese. It typically features a roasted goose (Martinigans or “Martin’s goose”) as the centerpiece, symbolizing an old legend in which honking geese revealed Saint Martin’s hiding place when he tried to avoid becoming a bishop. The day often includes church services, processions with lanterns, and local festivities marking the end of the harvest season.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start mb-5">
+                    <div class="flex-shrink-0">
+                      <div class="p-3 rounded-4 shadow-2-strong" style="background-color: hsl(204, 30%, 20%)">
+                        <i class="fas fa-shield-alt fa-lg text-white fa-fw"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-4">
+                      <p class="fw-bold mb-1">Martinigans in NEUERWirt</p>
+                      <p class="text-muted mb-0">
+                        in order to advertise Martinigansl in NEUERWirt I created a beatiful designed landingpage, which is advertised on several branch websites
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-start mb-5">
+                    <div class="flex-shrink-0">
+                      <div class="p-3 rounded-4 shadow-2-strong" style="background-color: hsl(204, 30%, 20%)">
+                        <i class="fas fa-shipping-fast fa-lg text-white fa-fw"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-4">
+                      <p class="fw-bold mb-1">responsive design</p>
+                      <p class="text-muted mb-0">
+                            this landing page was designed for all devices, including mobile devices such as smartphones or tablets                      
+                        </p>
+                    </div>
+                  </div>
+
+                  <!--<div class="d-flex align-items-start">
+                    <div class="flex-shrink-0">
+                      <div class="p-3 rounded-4 shadow-2-strong" style="background-color: hsl(204, 30%, 20%)">
+                        <i class="fas fa-chart-pie fa-lg text-white fa-fw"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-4">
+                      <p class="fw-bold mb-1">Blog section</p>
+                      <p class="text-muted mb-0">
+                        This section is all about the blog itself. Beautifully designed and full responsive for mobiles.
+                      </p>
+                    </div>
+                  </div> -->
+                </div>
               </div>
             </section>
             <!-- Section: Design Block -->
